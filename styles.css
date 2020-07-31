@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+body{
+	background-image:url('hotel images and bg/bg.jpg');
+	background-repeat:repeat;
+}
+.pic{
+	padding:8px;
+}
+.round{
+	border-radius:50%;
+	float:left;
+	width:170px;
+	height:170px;
+	position:relative;
+	border-style:groove;
+	border-width:5px;
+	border-color:yellow;
+	
+}
+span{
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+span.fadeOut{
+	opacity: 1;
+}
+#credits{
+	font-size:10px;
+	top:5px;
+	left:180px;
+	position:absolute;
+}
+#top{
+	width:100%;
+	height:380px;
+	 /* background-color:red;  */
+}
+h1{
+	font-family: 'Rowdies', cursive;
+}
+.venue{
+	font-size: 10px;
+	top:150px;
+	left:50px;
+	position: absolute;
+}
+#vento{
+	left:110px;
+	top:30px;
+	position:absolute;
+	/* display: none; */
+	
+}
+#wayg{
+	width:240px;
+	position:absolute;
+	left:60px;
+	top:120px;
+	border-radius:15px;
+}
+#k{
+	position:absolute;
+	top:250px;
+	left:25px;
+}
+#exciting{
+	position:absolute;
+	left:25px;
+	top:170px;
+	font-family: 'Red Rose', cursive;
+}
+#middle{
+	width:100%;
+	height:300px;
+}
+#fourpics{
+	padding-top:20px;
+	width:100%;
+	height:400px;
+	/* background-color:purple; */
+}
+
+
+
+
+
+

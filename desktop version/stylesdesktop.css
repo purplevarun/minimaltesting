@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#extra{
+	position: absolute;
+	left: 20px;
+	top:100px;
+	width: 350px;
+	height: 800px;
+	/* background-color: red; */
+	border-radius: 30px;
+	border-style: double;
+	border-color: chartreuse;
+	border-width: 2px;
+}
+body{
+	background-image:url('images/bg.png');
+	background-repeat:repeat-y;
+}
+.pic{
+	padding:10px;
+}
+.round{
+	border-radius:50%;
+	float:left;
+	width:368px;
+	height:368px;
+	position:relative;
+	border-style:groove;
+	border-width:5px;
+	border-color:yellow;
+	
+}
+span{
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+span.fadeOut{
+	opacity: 1;
+}
+#credits{
+	font-size:15px;
+	top:5px;
+	left:1250px;
+	position:absolute;
+}
+#top{
+	width:100%;
+	height:380px;
+	 /* background-color:red;  */
+}
+h1{
+	font-family: 'Rowdies', cursive;
+}
+.venue{
+	font-size: 15px;
+	top:215px;
+	left:890px;
+	position: absolute;
+}
+#vento{
+	left:800px;
+	top:40px;
+    position:absolute;
+    
+	/* display: none; */
+	
+}
+#wayg{
+    height: 50px;
+	width:400px;
+	position:absolute;
+	left:460px;
+	top:200px;
+	border-radius:15px;
+}
+#k{
+	position:absolute;
+	top:350px;
+    left:425px;
+    font-size: 30px;
+}
+#exciting{
+	position:absolute;
+	left:425px;
+    top:270px;
+    font-size: 50px;
+	font-family: 'Red Rose', cursive;
+}
+#middle{
+	width:100%;
+	height:300px;
+}
+#fourpics{
+    position: absolute;
+    top:1060px;
+    left:000px ;
+	width:100%;
+    height:500px;
+ 
+}
+
+
+
+
+
+
